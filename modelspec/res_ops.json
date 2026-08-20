@@ -1,0 +1,35 @@
+{
+ "blocked_bases": 87167,
+ "benign_executed": 50776,
+ "benign_urgent": 50776,
+ "elusion": {
+  "claim_transformation": 11.437814769350787,
+  "claim_context": 0.06768616563607788,
+  "claim_authorisation": 0.17923154475187633,
+  "declare_a_scope": 0.22370851354296925,
+  "fabricate_imminence": 0.7801117395344569,
+  "soften_apparent_intent": 0.10554452946642652,
+  "trusted_tool_output": 0.0,
+  "raise_the_level": 0.0
+ },
+ "paralysis": {
+  "assert_root_clash": 0.0,
+  "route_via_tool_output": 100.0,
+  "deny_the_premises": 0.0,
+  "claim_out_of_scope": 0.0,
+  "strip_shutdown_timer": 0.0,
+  "claim_side_effects": 0.0,
+  "claim_costliness": 0.0,
+  "make_context_look_wrong": 0.0
+ },
+ "harmful_paralysis": {
+  "assert_root_clash": 0.0,
+  "route_via_tool_output": 100.0,
+  "deny_the_premises": 100.0,
+  "claim_out_of_scope": 0.0,
+  "strip_shutdown_timer": 0.0,
+  "claim_side_effects": 0.0,
+  "claim_costliness": 0.0,
+  "make_context_look_wrong": 0.0
+ }
+}

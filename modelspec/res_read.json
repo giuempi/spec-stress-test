@@ -1,0 +1,123 @@
+{
+ "n": 200000,
+ "n_readings": 512,
+ "no_unique_outcome_pct": 19.176,
+ "undecidable_under_some_reading_pct": 0.0225,
+ "swing_ge2_pct": 15.791,
+ "distinct_outcomes": {
+  "1": 161648,
+  "2": 34900,
+  "3": 3452
+ },
+ "oat": {
+  "inaction_literal": {
+   "pct": 0.0225,
+   "transitions": [
+    [
+     "UNDECIDED->INACTION",
+     45
+    ]
+   ]
+  },
+  "never_refuse_broad": {
+   "pct": 0.0295,
+   "transitions": [
+    [
+     "REFUSE->EXECUTE",
+     59
+    ]
+   ]
+  },
+  "trust_by_judgment": {
+   "pct": 8.0865,
+   "transitions": [
+    [
+     "REFUSE->EXECUTE",
+     8493
+    ],
+    [
+     "REFUSE->ASK",
+     7404
+    ],
+    [
+     "REFUSE->EXECUTE+CAVEAT",
+     276
+    ]
+   ]
+  },
+  "scope_strict": {
+   "pct": 1.4035,
+   "transitions": [
+    [
+     "ASK->EXECUTE",
+     2805
+    ],
+    [
+     "ASK->REFUSE",
+     2
+    ]
+   ]
+  },
+  "lower_denies": {
+   "pct": 1.971,
+   "transitions": [
+    [
+     "ASK->EXECUTE",
+     2245
+    ],
+    [
+     "ASK->REFUSE",
+     1611
+    ],
+    [
+     "ASK->EXECUTE+CAVEAT",
+     86
+    ]
+   ]
+  },
+  "interject_generic": {
+   "pct": 0.0105,
+   "transitions": [
+    [
+     "REFUSE->EXECUTE+CAVEAT",
+     21
+    ]
+   ]
+  },
+  "scope_preauthorises": {
+   "pct": 3.8115,
+   "transitions": [
+    [
+     "ASK->EXECUTE",
+     7610
+    ],
+    [
+     "ASK->REFUSE",
+     13
+    ]
+   ]
+  },
+  "bounds_before_chain": {
+   "pct": 0.8035,
+   "transitions": [
+    [
+     "ASK->REFUSE",
+     1607
+    ]
+   ]
+  },
+  "timer_default": {
+   "pct": 3.052,
+   "transitions": [
+    [
+     "EXECUTE->ASK",
+     6099
+    ],
+    [
+     "REFUSE->ASK",
+     5
+    ]
+   ]
+  }
+ }
+}

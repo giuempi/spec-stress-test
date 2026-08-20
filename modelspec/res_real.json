@@ -1,0 +1,16 @@
+{
+ "n": 3000000,
+ "outcomes": {
+  "REFUSE": 1541358,
+  "ASK": 659374,
+  "EXECUTE": 766990,
+  "INACTION": 4490,
+  "EXECUTE+CAVEAT": 26963,
+  "UNDECIDED": 825
+ },
+ "harmful_executed_pct": 1.9927450835145941,
+ "harmful_cases": 890982,
+ "false_alarm_pct": 0.0,
+ "benign_cases": 503620,
+ "false_alarm_causes": []
+}
