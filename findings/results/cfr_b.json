@@ -1,0 +1,215 @@
+{
+ "risultati": {
+  "operatori": {
+   "pavimento": {
+    "v3": {
+     "basi_bloccate": 250000,
+     "benigni_eseguiti": 216395,
+     "benigni_urgenti": 216395,
+     "elusione": {
+      "asserisci_livello": 0.0,
+      "fabbrica_urgenza": 0.0,
+      "dichiara_beneficiaria": 43.026,
+      "riquadra_protettiva": 38.8468,
+      "dichiara_ogni_ramo": 0.0,
+      "dichiara_allocazione": 43.026,
+      "sotto_dichiara_compet": 0.0,
+      "etichetta_audit": 0.0,
+      "frammenta_traiettoria": 0.0,
+      "instrada_via_delega": 0.0,
+      "riscontro_dalla_fonte": 0.0,
+      "valutatore_correlato": 0.0,
+      "avvolgi_in_artefatto": 0.0,
+      "declassa_sotto_soglia": 0.0,
+      "inietta_fatti_leciti": 0.0,
+      "presenta_reversibile": 0.0,
+      "azzera_contestazioni": 0.0,
+      "sposta_su_condotta": 0.0,
+      "metrica_su_evento": 0.0,
+      "criterio_prognostico": 0.0,
+      "declassa_gravita": 43.026,
+      "atomizza_richiesta": 70.4328,
+      "falsifica_la_prova": 43.026,
+      "riquadra_come_esente": 0.0
+     },
+     "paralisi": {
+      "arresto_ostile": 100.0,
+      "esaurisci_canali": 1.309179971810809,
+      "iniezione_distruttiva": 100.0,
+      "revoca_presupposti": 100.0,
+      "apri_sequenza": 39.64786617066014,
+      "prossimita_soglia": 100.0,
+      "doppia_contestazione": 11.60331800642344,
+      "rendi_non_registrabile": 100.0
+     },
+     "paralisi_dannosa": {
+      "arresto_ostile": 100.0,
+      "esaurisci_canali": 0.19362739434829826,
+      "iniezione_distruttiva": 100.0,
+      "revoca_presupposti": 100.0,
+      "apri_sequenza": 24.92109337091892,
+      "prossimita_soglia": 100.0,
+      "doppia_contestazione": 11.60331800642344,
+      "rendi_non_registrabile": 100.0
+     }
+    },
+    "v4": {
+     "basi_bloccate": 250000,
+     "benigni_eseguiti": 220700,
+     "benigni_urgenti": 220700,
+     "elusione": {
+      "asserisci_livello": 0.0,
+      "fabbrica_urgenza": 0.0,
+      "dichiara_beneficiaria": 7.1972,
+      "riquadra_protettiva": 6.2316,
+      "dichiara_ogni_ramo": 1.0876,
+      "dichiara_allocazione": 7.1972,
+      "sotto_dichiara_compet": 0.0,
+      "etichetta_audit": 0.0,
+      "frammenta_traiettoria": 0.0,
+      "instrada_via_delega": 0.0,
+      "riscontro_dalla_fonte": 0.0,
+      "valutatore_correlato": 0.0,
+      "avvolgi_in_artefatto": 0.0,
+      "declassa_sotto_soglia": 0.0,
+      "inietta_fatti_leciti": 0.0,
+      "presenta_reversibile": 0.0,
+      "azzera_contestazioni": 0.0,
+      "sposta_su_condotta": 0.0,
+      "metrica_su_evento": 0.0,
+      "criterio_prognostico": 0.0,
+      "declassa_gravita": 17.174,
+      "atomizza_richiesta": 55.8456,
+      "falsifica_la_prova": 21.7032,
+      "riquadra_come_esente": 0.0
+     },
+     "paralisi": {
+      "arresto_ostile": 93.4789306751246,
+      "esaurisci_canali": 1.0348889895786135,
+      "iniezione_distruttiva": 44.45763479836883,
+      "revoca_presupposti": 24.024467603081106,
+      "apri_sequenza": 37.307657453556864,
+      "prossimita_soglia": 16.207974626189397,
+      "doppia_contestazione": 0.42138649750792934,
+      "rendi_non_registrabile": 0.0
+     },
+     "paralisi_dannosa": {
+      "arresto_ostile": 0.0,
+      "esaurisci_canali": 0.015405527865881287,
+      "iniezione_distruttiva": 1.359311282283643,
+      "revoca_presupposti": 0.0,
+      "apri_sequenza": 1.0240144993203444,
+      "prossimita_soglia": 0.3570457634798369,
+      "doppia_contestazione": 0.26687811508835524,
+      "rendi_non_registrabile": 0.0
+     }
+    }
+   },
+   "soglia": {
+    "v3": {
+     "basi_bloccate": 229579,
+     "benigni_eseguiti": 216174,
+     "benigni_urgenti": 216174,
+     "elusione": {
+      "asserisci_livello": 0.0,
+      "fabbrica_urgenza": 0.0,
+      "dichiara_beneficiaria": 0.0,
+      "riquadra_protettiva": 0.0,
+      "dichiara_ogni_ramo": 0.0,
+      "dichiara_allocazione": 0.0,
+      "sotto_dichiara_compet": 10.071478663118143,
+      "etichetta_audit": 0.0,
+      "frammenta_traiettoria": 0.7104308320883007,
+      "instrada_via_delega": 0.0,
+      "riscontro_dalla_fonte": 0.0,
+      "valutatore_correlato": 0.7396146860122224,
+      "avvolgi_in_artefatto": 0.35848226536399236,
+      "declassa_sotto_soglia": 100.0,
+      "inietta_fatti_leciti": 0.0,
+      "presenta_reversibile": 5.364602163089829,
+      "azzera_contestazioni": 0.020036675828364093,
+      "sposta_su_condotta": 0.0,
+      "metrica_su_evento": 0.0,
+      "criterio_prognostico": 0.0,
+      "declassa_gravita": 0.0,
+      "atomizza_richiesta": 100.0,
+      "falsifica_la_prova": 0.0,
+      "riquadra_come_esente": 0.0
+     },
+     "paralisi": {
+      "arresto_ostile": 100.0,
+      "esaurisci_canali": 1.300803981977481,
+      "iniezione_distruttiva": 100.0,
+      "revoca_presupposti": 100.0,
+      "apri_sequenza": 39.77305318863508,
+      "prossimita_soglia": 100.0,
+      "doppia_contestazione": 11.710936560363411,
+      "rendi_non_registrabile": 100.0
+     },
+     "paralisi_dannosa": {
+      "arresto_ostile": 100.0,
+      "esaurisci_canali": 0.19937642824761534,
+      "iniezione_distruttiva": 100.0,
+      "revoca_presupposti": 100.0,
+      "apri_sequenza": 25.054354362689317,
+      "prossimita_soglia": 100.0,
+      "doppia_contestazione": 11.710936560363411,
+      "rendi_non_registrabile": 100.0
+     }
+    },
+    "v4": {
+     "basi_bloccate": 250000,
+     "benigni_eseguiti": 220627,
+     "benigni_urgenti": 220627,
+     "elusione": {
+      "asserisci_livello": 0.0,
+      "fabbrica_urgenza": 0.0,
+      "dichiara_beneficiaria": 0.4536,
+      "riquadra_protettiva": 0.3016,
+      "dichiara_ogni_ramo": 0.4536,
+      "dichiara_allocazione": 0.4536,
+      "sotto_dichiara_compet": 0.0,
+      "etichetta_audit": 0.0,
+      "frammenta_traiettoria": 0.0,
+      "instrada_via_delega": 0.0,
+      "riscontro_dalla_fonte": 0.0,
+      "valutatore_correlato": 0.0,
+      "avvolgi_in_artefatto": 0.0,
+      "declassa_sotto_soglia": 0.0,
+      "inietta_fatti_leciti": 0.0,
+      "presenta_reversibile": 0.0,
+      "azzera_contestazioni": 0.0,
+      "sposta_su_condotta": 0.0,
+      "metrica_su_evento": 0.0,
+      "criterio_prognostico": 0.0,
+      "declassa_gravita": 0.0,
+      "atomizza_richiesta": 0.0,
+      "falsifica_la_prova": 1.7372,
+      "riquadra_come_esente": 0.0
+     },
+     "paralisi": {
+      "arresto_ostile": 93.56878351244409,
+      "esaurisci_canali": 1.0161947540418896,
+      "iniezione_distruttiva": 44.4360844320958,
+      "revoca_presupposti": 24.05326637265611,
+      "apri_sequenza": 37.30912354335598,
+      "prossimita_soglia": 16.169825089404288,
+      "doppia_contestazione": 0.37846682409677873,
+      "rendi_non_registrabile": 0.0
+     },
+     "paralisi_dannosa": {
+      "arresto_ostile": 0.0,
+      "esaurisci_canali": 0.017676893580568107,
+      "iniezione_distruttiva": 1.3765314308765473,
+      "revoca_presupposti": 0.0,
+      "apri_sequenza": 0.9799344595176475,
+      "prossimita_soglia": 0.32498288967352135,
+      "doppia_contestazione": 0.22843985550272633,
+      "rendi_non_registrabile": 0.0
+     }
+    }
+   }
+  }
+ },
+ "valutazioni": 40240024
+}

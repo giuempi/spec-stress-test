@@ -1,0 +1,228 @@
+{
+ "oat": {
+  "p2_esito": {
+   "casi_che_cambiano": 1235,
+   "pct": 0.1235,
+   "transizioni": [
+    [
+     "SOSPENDI->ESEGUI",
+     884
+    ],
+    [
+     "SOSPENDI->ESEGUI+ALERT",
+     351
+    ]
+   ]
+  },
+  "gate_prima_pavimento": {
+   "casi_che_cambiano": 118343,
+   "pct": 11.8343,
+   "transizioni": [
+    [
+     "RIFIUTO->ESEGUI",
+     117362
+    ],
+    [
+     "SOSPENDI->ESEGUI",
+     981
+    ]
+   ]
+  },
+  "arresto_ogni_canale": {
+   "casi_che_cambiano": 711,
+   "pct": 0.0711,
+   "transizioni": [
+    [
+     "SOSPENDI->RIFIUTO",
+     711
+    ]
+   ]
+  },
+  "p2_batte_arresto": {
+   "casi_che_cambiano": 541,
+   "pct": 0.0541,
+   "transizioni": [
+    [
+     "SOSPENDI->ESEGUI",
+     365
+    ],
+    [
+     "SOSPENDI->RIFIUTO",
+     158
+    ],
+    [
+     "SOSPENDI->CHIEDI",
+     15
+    ],
+    [
+     "SOSPENDI->ESEGUI+ALERT",
+     3
+    ]
+   ]
+  },
+  "riscontro_esente": {
+   "casi_che_cambiano": 31569,
+   "pct": 3.1569,
+   "transizioni": [
+    [
+     "CHIEDI->INDECIDIBILE",
+     21205
+    ],
+    [
+     "ESEGUI->INDECIDIBILE",
+     7883
+    ],
+    [
+     "SOSPENDI->INDECIDIBILE",
+     2415
+    ],
+    [
+     "RIFIUTO->INDECIDIBILE",
+     66
+    ]
+   ]
+  },
+  "stato_traiettoria": {
+   "casi_che_cambiano": 6153,
+   "pct": 0.6153,
+   "transizioni": [
+    [
+     "SOSPENDI->ESEGUI",
+     2209
+    ],
+    [
+     "SOSPENDI->CHIEDI",
+     2132
+    ],
+    [
+     "ESEGUI->CHIEDI",
+     650
+    ],
+    [
+     "ESEGUI->RIFIUTO",
+     582
+    ],
+    [
+     "SOSPENDI->RIFIUTO",
+     526
+    ],
+    [
+     "ESEGUI->ESEGUI+ALERT",
+     27
+    ]
+   ]
+  },
+  "sopra_rifiuto": {
+   "casi_che_cambiano": 0,
+   "pct": 0.0,
+   "transizioni": []
+  },
+  "urgenza_asserita": {
+   "casi_che_cambiano": 480,
+   "pct": 0.048,
+   "transizioni": [
+    [
+     "CHIEDI->ESEGUI+ALERT",
+     470
+    ],
+    [
+     "SOSPENDI->CHIEDI",
+     10
+    ]
+   ]
+  },
+  "p7_su_rifiuto": {
+   "casi_che_cambiano": 22021,
+   "pct": 2.2021,
+   "transizioni": [
+    [
+     "ESEGUI->RIFIUTO",
+     20682
+    ],
+    [
+     "CHIEDI->RIFIUTO",
+     1013
+    ],
+    [
+     "SOSPENDI->RIFIUTO",
+     309
+    ],
+    [
+     "ESEGUI+ALERT->RIFIUTO",
+     17
+    ]
+   ]
+  },
+  "ecc_p1b_stretta": {
+   "casi_che_cambiano": 968,
+   "pct": 0.0968,
+   "transizioni": [
+    [
+     "RIFIUTO->ESEGUI",
+     891
+    ],
+    [
+     "RIFIUTO->CHIEDI",
+     61
+    ],
+    [
+     "RIFIUTO->SOSPENDI",
+     15
+    ],
+    [
+     "RIFIUTO->ESEGUI+ALERT",
+     1
+    ]
+   ]
+  },
+  "urgenza_scavalca": {
+   "casi_che_cambiano": 77,
+   "pct": 0.0077,
+   "transizioni": [
+    [
+     "RIFIUTO->ESEGUI+ALERT",
+     75
+    ],
+    [
+     "RIFIUTO->CHIEDI",
+     2
+    ]
+   ]
+  },
+  "prossimita_esito": {
+   "casi_che_cambiano": 2494,
+   "pct": 0.2494,
+   "transizioni": [
+    [
+     "RIFIUTO->ESEGUI",
+     1692
+    ],
+    [
+     "RIFIUTO->CHIEDI",
+     739
+    ],
+    [
+     "RIFIUTO->SOSPENDI",
+     54
+    ],
+    [
+     "RIFIUTO->ESEGUI+ALERT",
+     9
+    ]
+   ]
+  }
+ },
+ "n_oat": 1000000,
+ "fattoriale": {
+  "n_casi": 8000,
+  "n_letture": 4096,
+  "distribuzione_esiti_distinti": {
+   "2": 1468,
+   "1": 6490,
+   "3": 42
+  },
+  "casi_con_esito_non_unico_pct": 18.875,
+  "casi_con_indecidibile_pct": 3.6875,
+  "casi_con_salto_permissivita_>=2_pct": 15.2375
+ }
+}

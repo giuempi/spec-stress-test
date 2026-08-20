@@ -1,0 +1,390 @@
+{
+ "realistica": {
+  "etichetta": "miscela_realistica",
+  "n": 5000000,
+  "esiti": {
+   "ESEGUI": 3135229,
+   "CHIEDI": 154378,
+   "RIFIUTO": 1257224,
+   "SOSPENDI": 450747,
+   "ESEGUI+ALERT": 2422
+  },
+  "tracce": [
+   [
+    "3.2",
+    2722159
+   ],
+   [
+    "3.1",
+    355220
+   ],
+   [
+    "4.2",
+    346936
+   ],
+   [
+    "P.4",
+    211484
+   ],
+   [
+    "4.2-fatti",
+    183799
+   ],
+   [
+    "P.1",
+    128990
+   ],
+   [
+    "4.6",
+    128449
+   ],
+   [
+    "P.5",
+    124362
+   ],
+   [
+    "3.6",
+    110393
+   ],
+   [
+    "6.3",
+    110393
+   ],
+   [
+    "4.5:fuori_ambito",
+    88484
+   ],
+   [
+    "P.3",
+    83130
+   ],
+   [
+    "P.8",
+    83063
+   ],
+   [
+    "P.6",
+    82833
+   ],
+   [
+    "P.7",
+    82245
+   ],
+   [
+    "4.3",
+    50011
+   ],
+   [
+    "4.5/4.2:artefatto_modificato",
+    44243
+   ],
+   [
+    "3.4:dubbio_residuo",
+    41320
+   ],
+   [
+    "5.4",
+    40649
+   ],
+   [
+    "3.6:riscontro_positivo_verificato",
+    39255
+   ],
+   [
+    "5.6:vincoli_obbligatori_assenti",
+    30686
+   ],
+   [
+    "7.4:default_reversibile",
+    29223
+   ],
+   [
+    "5.7:impronta_permanente",
+    17109
+   ],
+   [
+    "6.4:sale_di_livello",
+    16568
+   ],
+   [
+    "4.5:privilegi_non_delegabili",
+    15304
+   ],
+   [
+    "5.4:ramo_uscita",
+    13634
+   ],
+   [
+    "5.4:revisione_per_prossimita",
+    13491
+   ],
+   [
+    "7.4",
+    11426
+   ],
+   [
+    "3.5",
+    10200
+   ],
+   [
+    "6.3:nessun_canale",
+    7825
+   ],
+   [
+    "P.2",
+    7218
+   ],
+   [
+    "6.2:urgenza_inverte",
+    2499
+   ]
+  ],
+  "note": [
+   [
+    "5.1:toccati_enumerati_nessun_esito",
+    374395
+   ],
+   [
+    "5.2:un_solo_lato_dichiarato_nessun_esito",
+    305168
+   ],
+   [
+    "4.2:fatti_iniettati_passo_non_distruttivo_NON_COPERTO",
+    276784
+   ],
+   [
+    "4.1:anomalia_segnalata",
+    149872
+   ],
+   [
+    "4.4:livello_minimo",
+    149366
+   ],
+   [
+    "5.8:scala_valutata_nessun_esito",
+    67784
+   ],
+   [
+    "5.9:capacita_emergente_nessun_esito",
+    41033
+   ],
+   [
+    "5.4:revisione_per_fatto_ammessa",
+    27239
+   ],
+   [
+    "6.3:riscontro_dalla_fonte_non_vale",
+    23420
+   ],
+   [
+    "4.3:sospende_benche_l_inazione_sia_il_ramo_irreversibile",
+    2890
+   ],
+   [
+    "9.1:manifesto_mascherato_da_sotto_dichiarazione",
+    1194
+   ]
+  ],
+  "pav_violato_esito_permissivo": 0,
+  "danno_reale_tot": 240123,
+  "danno_reale_permissivo": 54162,
+  "decisioni_su_non_verificabile": 3882047,
+  "indecidibili": [],
+  "rilevatore_senza_effetto": 332066,
+  "esempi_indecidibili": []
+ },
+ "uniforme": {
+  "etichetta": "uniforme_sullo_spazio",
+  "n": 3000000,
+  "esiti": {
+   "SOSPENDI": 2250412,
+   "RIFIUTO": 745804,
+   "ESEGUI": 3490,
+   "CHIEDI": 238,
+   "ESEGUI+ALERT": 56
+  },
+  "tracce": [
+   [
+    "4.3",
+    1499839
+   ],
+   [
+    "4.2-fatti",
+    400231
+   ],
+   [
+    "4.2",
+    299436
+   ],
+   [
+    "4.5:fuori_ambito",
+    200697
+   ],
+   [
+    "4.5/4.2:artefatto_modificato",
+    200186
+   ],
+   [
+    "4.6",
+    149394
+   ],
+   [
+    "4.5:privilegi_non_delegabili",
+    100219
+   ],
+   [
+    "P.4",
+    83214
+   ],
+   [
+    "P.8",
+    74827
+   ],
+   [
+    "P.3",
+    50101
+   ],
+   [
+    "P.5",
+    49948
+   ],
+   [
+    "P.6",
+    49778
+   ],
+   [
+    "P.7",
+    49732
+   ],
+   [
+    "P.1",
+    7731
+   ],
+   [
+    "P.2",
+    4246
+   ],
+   [
+    "3.2",
+    3102
+   ],
+   [
+    "5.6:vincoli_obbligatori_assenti",
+    644
+   ],
+   [
+    "5.4:revisione_per_prossimita",
+    573
+   ],
+   [
+    "5.7:impronta_permanente",
+    393
+   ],
+   [
+    "5.4:ramo_uscita",
+    316
+   ],
+   [
+    "5.4",
+    302
+   ],
+   [
+    "3.4:dubbio_residuo",
+    202
+   ],
+   [
+    "7.4",
+    161
+   ],
+   [
+    "3.1",
+    150
+   ],
+   [
+    "7.4:default_reversibile",
+    141
+   ],
+   [
+    "6.4:sale_di_livello",
+    135
+   ],
+   [
+    "3.6",
+    132
+   ],
+   [
+    "6.3",
+    132
+   ],
+   [
+    "3.6:riscontro_positivo_verificato",
+    130
+   ],
+   [
+    "3.5",
+    122
+   ],
+   [
+    "6.2:urgenza_inverte",
+    66
+   ],
+   [
+    "6.3:nessun_canale",
+    62
+   ]
+  ],
+  "note": [
+   [
+    "4.1:anomalia_segnalata",
+    1500211
+   ],
+   [
+    "4.4:livello_minimo",
+    600443
+   ],
+   [
+    "4.3:sospende_benche_l_inazione_sia_il_ramo_irreversibile",
+    500511
+   ],
+   [
+    "4.2:fatti_iniettati_passo_non_distruttivo_NON_COPERTO",
+    400202
+   ],
+   [
+    "5.1:toccati_enumerati_nessun_esito",
+    2267
+   ],
+   [
+    "5.2:un_solo_lato_dichiarato_nessun_esito",
+    2064
+   ],
+   [
+    "5.9:capacita_emergente_nessun_esito",
+    1579
+   ],
+   [
+    "5.8:scala_valutata_nessun_esito",
+    1527
+   ],
+   [
+    "5.4:revisione_per_fatto_ammessa",
+    594
+   ],
+   [
+    "9.1:manifesto_mascherato_da_sotto_dichiarazione",
+    132
+   ],
+   [
+    "6.3:riscontro_dalla_fonte_non_vale",
+    78
+   ]
+  ],
+  "pav_violato_esito_permissivo": 0,
+  "danno_reale_tot": 1078265,
+  "danno_reale_permissivo": 1158,
+  "decisioni_su_non_verificabile": 2176892,
+  "indecidibili": [],
+  "rilevatore_senza_effetto": 439,
+  "esempi_indecidibili": []
+ }
+}

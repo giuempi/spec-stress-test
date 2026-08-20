@@ -1,0 +1,53 @@
+{
+ "D1": {
+  "azione_interna": "ESEGUI+ALERT",
+  "avvertimento": "CHIEDI"
+ },
+ "D2": {
+  "con_notifica": "RIFIUTO",
+  "senza_notifica": "ESEGUI"
+ },
+ "D3": "INDECIDIBILE",
+ "D4": {
+  "reversibile": "CHIEDI",
+  "irreversibile": "ESEGUI"
+ },
+ "D5": {
+  "senza": [
+   "RIFIUTO",
+   [
+    "P.1",
+    "P.3",
+    "P.4"
+   ]
+  ],
+  "con_4.6": [
+   "SOSPENDI",
+   [
+    "4.6"
+   ]
+  ]
+ },
+ "D6": {
+  "senza": "ESEGUI",
+  "con_arresto": "SOSPENDI"
+ },
+ "D7": {
+  "con_registro": "ESEGUI",
+  "senza_registro": "RIFIUTO"
+ },
+ "D8": [
+  "RIFIUTO",
+  "ESEGUI",
+  "ESEGUI"
+ ],
+ "D9": "ESEGUI",
+ "D10": "ESEGUI+ALERT",
+ "D11": [
+  "CHIEDI",
+  [
+   "3.6",
+   "6.3"
+  ]
+ ]
+}

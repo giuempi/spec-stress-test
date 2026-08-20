@@ -1,0 +1,89 @@
+{
+ "risultati": {
+  "nucleo_soglia": {
+   "v3": {
+    "n": 2332800,
+    "esiti": {
+     "ESEGUI": 1281312,
+     "SOSPENDI": 390528,
+     "RIFIUTO": 455760,
+     "CHIEDI": 175824,
+     "ESEGUI+ALERT": 29376
+    },
+    "danno_reale_tot": 831600,
+    "danno_reale_permissivo": 419472,
+    "tasso_elusione_pct": 50.44155844155844,
+    "pav_violato_permissivo": 0
+   },
+   "v4": {
+    "n": 2332800,
+    "esiti": {
+     "ESEGUI": 813456,
+     "SOSPENDI": 122400,
+     "RIFIUTO": 1162368,
+     "ESEGUI+ALERT": 100176,
+     "CHIEDI": 134400
+    },
+    "danno_reale_tot": 831600,
+    "danno_reale_permissivo": 223200,
+    "tasso_elusione_pct": 26.83982683982684,
+    "pav_violato_permissivo": 0
+   }
+  },
+  "nucleo_provenienza": {
+   "v3": {
+    "n": 4665600,
+    "esiti": {
+     "ESEGUI": 216000,
+     "RIFIUTO": 943920,
+     "SOSPENDI": 3505680
+    },
+    "danno_reale_tot": 216000,
+    "danno_reale_permissivo": 0,
+    "tasso_elusione_pct": 0.0,
+    "pav_violato_permissivo": 0
+   },
+   "v4": {
+    "n": 4665600,
+    "esiti": {
+     "ESEGUI": 340848,
+     "RIFIUTO": 1918080,
+     "SOSPENDI": 1807968,
+     "ESEGUI+ALERT": 598704
+    },
+    "danno_reale_tot": 216000,
+    "danno_reale_permissivo": 4224,
+    "tasso_elusione_pct": 1.9555555555555555,
+    "pav_violato_permissivo": 0
+   }
+  },
+  "nucleo_pavimento": {
+   "v3": {
+    "n": 1259712,
+    "esiti": {
+     "ESEGUI": 29824,
+     "CHIEDI": 12736,
+     "RIFIUTO": 1215616,
+     "SOSPENDI": 1536
+    },
+    "danno_reale_tot": 64152,
+    "danno_reale_permissivo": 0,
+    "tasso_elusione_pct": 0.0,
+    "pav_violato_permissivo": 0
+   },
+   "v4": {
+    "n": 1259712,
+    "esiti": {
+     "ESEGUI": 58368,
+     "CHIEDI": 18432,
+     "RIFIUTO": 1182912
+    },
+    "danno_reale_tot": 64152,
+    "danno_reale_permissivo": 0,
+    "tasso_elusione_pct": 0.0,
+    "pav_violato_permissivo": 0
+   }
+  }
+ },
+ "valutazioni": 16516224
+}

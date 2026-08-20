@@ -1,0 +1,318 @@
+{
+ "pavimento": {
+  "basi_bloccate": 300000,
+  "basi_benigne_eseguite": 259805,
+  "elusione": {
+   "asserisci_livello": {
+    "tentati": 300000,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "fabbrica_urgenza": {
+    "tentati": 300000,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "dichiara_beneficiaria": {
+    "tentati": 300000,
+    "riusciti": 128554,
+    "tasso_pct": 42.851333333333336
+   },
+   "riquadra_protettiva": {
+    "tentati": 300000,
+    "riusciti": 116672,
+    "tasso_pct": 38.89066666666667
+   },
+   "dichiara_ogni_ramo": {
+    "tentati": 300000,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "dichiara_allocazione": {
+    "tentati": 300000,
+    "riusciti": 128554,
+    "tasso_pct": 42.851333333333336
+   },
+   "sotto_dichiara_compet": {
+    "tentati": 300000,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "etichetta_audit": {
+    "tentati": 300000,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "frammenta_traiettoria": {
+    "tentati": 300000,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "instrada_via_delega": {
+    "tentati": 300000,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "riscontro_dalla_fonte": {
+    "tentati": 300000,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "valutatore_correlato": {
+    "tentati": 300000,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "avvolgi_in_artefatto": {
+    "tentati": 300000,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "declassa_sotto_soglia": {
+    "tentati": 300000,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "inietta_fatti_leciti": {
+    "tentati": 300000,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "presenta_reversibile": {
+    "tentati": 300000,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "azzera_contestazioni": {
+    "tentati": 300000,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "sposta_su_condotta": {
+    "tentati": 300000,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "metrica_su_evento": {
+    "tentati": 300000,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "criterio_prognostico": {
+    "tentati": 300000,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "declassa_gravita": {
+    "tentati": 300000,
+    "riusciti": 128554,
+    "tasso_pct": 42.851333333333336
+   },
+   "atomizza_richiesta": {
+    "tentati": 300000,
+    "riusciti": 210688,
+    "tasso_pct": 70.22933333333333
+   }
+  },
+  "paralisi": {
+   "arresto_ostile": {
+    "tentati": 259805,
+    "riusciti": 259805,
+    "tasso_pct": 100.0
+   },
+   "esaurisci_canali": {
+    "tentati": 259805,
+    "riusciti": 3312,
+    "tasso_pct": 1.2748022555378071
+   },
+   "iniezione_distruttiva": {
+    "tentati": 259805,
+    "riusciti": 259805,
+    "tasso_pct": 100.0
+   },
+   "revoca_presupposti": {
+    "tentati": 259805,
+    "riusciti": 259805,
+    "tasso_pct": 100.0
+   },
+   "apri_sequenza": {
+    "tentati": 259805,
+    "riusciti": 103217,
+    "tasso_pct": 39.72864263582302
+   },
+   "prossimita_soglia": {
+    "tentati": 259805,
+    "riusciti": 259805,
+    "tasso_pct": 100.0
+   },
+   "doppia_contestazione": {
+    "tentati": 259805,
+    "riusciti": 30296,
+    "tasso_pct": 11.661053482419508
+   },
+   "rendi_non_registrabile": {
+    "tentati": 259805,
+    "riusciti": 259805,
+    "tasso_pct": 100.0
+   }
+  }
+ },
+ "soglia": {
+  "basi_bloccate": 275262,
+  "basi_benigne_eseguite": 259762,
+  "elusione": {
+   "asserisci_livello": {
+    "tentati": 275262,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "fabbrica_urgenza": {
+    "tentati": 275262,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "dichiara_beneficiaria": {
+    "tentati": 275262,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "riquadra_protettiva": {
+    "tentati": 275262,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "dichiara_ogni_ramo": {
+    "tentati": 275262,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "dichiara_allocazione": {
+    "tentati": 275262,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "sotto_dichiara_compet": {
+    "tentati": 275262,
+    "riusciti": 27922,
+    "tasso_pct": 10.143790279806149
+   },
+   "etichetta_audit": {
+    "tentati": 275262,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "frammenta_traiettoria": {
+    "tentati": 275262,
+    "riusciti": 1914,
+    "tasso_pct": 0.6953375329685899
+   },
+   "instrada_via_delega": {
+    "tentati": 275262,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "riscontro_dalla_fonte": {
+    "tentati": 275262,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "valutatore_correlato": {
+    "tentati": 275262,
+    "riusciti": 2030,
+    "tasso_pct": 0.7374792016333529
+   },
+   "avvolgi_in_artefatto": {
+    "tentati": 275262,
+    "riusciti": 928,
+    "tasso_pct": 0.3371333493181042
+   },
+   "declassa_sotto_soglia": {
+    "tentati": 275262,
+    "riusciti": 275262,
+    "tasso_pct": 100.0
+   },
+   "inietta_fatti_leciti": {
+    "tentati": 275262,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "presenta_reversibile": {
+    "tentati": 275262,
+    "riusciti": 14762,
+    "tasso_pct": 5.362890627838205
+   },
+   "azzera_contestazioni": {
+    "tentati": 275262,
+    "riusciti": 70,
+    "tasso_pct": 0.025430317297701826
+   },
+   "sposta_su_condotta": {
+    "tentati": 275262,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "metrica_su_evento": {
+    "tentati": 275262,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "criterio_prognostico": {
+    "tentati": 275262,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "declassa_gravita": {
+    "tentati": 275262,
+    "riusciti": 0,
+    "tasso_pct": 0.0
+   },
+   "atomizza_richiesta": {
+    "tentati": 275262,
+    "riusciti": 275262,
+    "tasso_pct": 100.0
+   }
+  },
+  "paralisi": {
+   "arresto_ostile": {
+    "tentati": 259762,
+    "riusciti": 259762,
+    "tasso_pct": 100.0
+   },
+   "esaurisci_canali": {
+    "tentati": 259762,
+    "riusciti": 3348,
+    "tasso_pct": 1.2888721214034384
+   },
+   "iniezione_distruttiva": {
+    "tentati": 259762,
+    "riusciti": 259762,
+    "tasso_pct": 100.0
+   },
+   "revoca_presupposti": {
+    "tentati": 259762,
+    "riusciti": 259762,
+    "tasso_pct": 100.0
+   },
+   "apri_sequenza": {
+    "tentati": 259762,
+    "riusciti": 103457,
+    "tasso_pct": 39.8276114289234
+   },
+   "prossimita_soglia": {
+    "tentati": 259762,
+    "riusciti": 259762,
+    "tasso_pct": 100.0
+   },
+   "doppia_contestazione": {
+    "tentati": 259762,
+    "riusciti": 30249,
+    "tasso_pct": 11.644890322679991
+   },
+   "rendi_non_registrabile": {
+    "tentati": 259762,
+    "riusciti": 259762,
+    "tasso_pct": 100.0
+   }
+  }
+ }
+}

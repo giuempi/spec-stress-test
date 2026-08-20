@@ -1,0 +1,276 @@
+{
+ "risultati": {
+  "ambiguita": {
+   "v3": {
+    "n_risoluzioni": 12,
+    "n_letture": 4096,
+    "oat": {
+     "p2_esito": {
+      "pct": 0.12625,
+      "tran": [
+       [
+        "SOSPENDI->ESEGUI",
+        736
+       ],
+       [
+        "SOSPENDI->ESEGUI+ALERT",
+        274
+       ]
+      ]
+     },
+     "gate_prima_pavimento": {
+      "pct": 11.834375,
+      "tran": [
+       [
+        "RIFIUTO->ESEGUI",
+        93882
+       ],
+       [
+        "SOSPENDI->ESEGUI",
+        793
+       ]
+      ]
+     },
+     "arresto_ogni_canale": {
+      "pct": 0.071875,
+      "tran": [
+       [
+        "SOSPENDI->RIFIUTO",
+        575
+       ]
+      ]
+     },
+     "p2_batte_arresto": {
+      "pct": 0.059,
+      "tran": [
+       [
+        "SOSPENDI->ESEGUI",
+        328
+       ],
+       [
+        "SOSPENDI->RIFIUTO",
+        129
+       ],
+       [
+        "SOSPENDI->CHIEDI",
+        12
+       ]
+      ]
+     },
+     "riscontro_esente": {
+      "pct": 3.1585,
+      "tran": [
+       [
+        "CHIEDI->INDECIDIBILE",
+        16912
+       ],
+       [
+        "ESEGUI->INDECIDIBILE",
+        6417
+       ],
+       [
+        "SOSPENDI->INDECIDIBILE",
+        1891
+       ]
+      ]
+     },
+     "stato_traiettoria": {
+      "pct": 0.601,
+      "tran": [
+       [
+        "SOSPENDI->ESEGUI",
+        1810
+       ],
+       [
+        "SOSPENDI->CHIEDI",
+        1632
+       ],
+       [
+        "ESEGUI->CHIEDI",
+        506
+       ]
+      ]
+     },
+     "sopra_rifiuto": {
+      "pct": 0.0,
+      "tran": []
+     },
+     "urgenza_asserita": {
+      "pct": 0.0465,
+      "tran": [
+       [
+        "CHIEDI->ESEGUI+ALERT",
+        363
+       ],
+       [
+        "SOSPENDI->CHIEDI",
+        9
+       ]
+      ]
+     },
+     "p7_su_rifiuto": {
+      "pct": 2.178,
+      "tran": [
+       [
+        "ESEGUI->RIFIUTO",
+        16367
+       ],
+       [
+        "CHIEDI->RIFIUTO",
+        807
+       ],
+       [
+        "SOSPENDI->RIFIUTO",
+        238
+       ]
+      ]
+     },
+     "ecc_p1b_stretta": {
+      "pct": 0.09425,
+      "tran": [
+       [
+        "RIFIUTO->ESEGUI",
+        682
+       ],
+       [
+        "RIFIUTO->CHIEDI",
+        58
+       ],
+       [
+        "RIFIUTO->SOSPENDI",
+        11
+       ]
+      ]
+     },
+     "urgenza_scavalca": {
+      "pct": 0.009875,
+      "tran": [
+       [
+        "RIFIUTO->ESEGUI+ALERT",
+        78
+       ],
+       [
+        "RIFIUTO->CHIEDI",
+        1
+       ]
+      ]
+     },
+     "prossimita_esito": {
+      "pct": 0.240625,
+      "tran": [
+       [
+        "RIFIUTO->ESEGUI",
+        1327
+       ],
+       [
+        "RIFIUTO->CHIEDI",
+        552
+       ],
+       [
+        "RIFIUTO->SOSPENDI",
+        39
+       ]
+      ]
+     }
+    },
+    "non_unico_pct": 18.45,
+    "indecidibile_pct": 3.7125,
+    "salto_ge2_pct": 14.975,
+    "distribuzione": {
+     "1": 6524,
+     "2": 1429,
+     "3": 46,
+     "4": 1
+    }
+   },
+   "v4": {
+    "n_risoluzioni": 7,
+    "n_letture": 128,
+    "oat": {
+     "opzionalita_incerta": {
+      "pct": 0.120875,
+      "tran": [
+       [
+        "SOSPENDI->ESEGUI+ALERT",
+        944
+       ],
+       [
+        "RIFIUTO->CHIEDI",
+        23
+       ]
+      ]
+     },
+     "minimo_ripristinabile": {
+      "pct": 0.00625,
+      "tran": [
+       [
+        "ESEGUI+ALERT->SOSPENDI",
+        50
+       ]
+      ]
+     },
+     "fatto_constatabile": {
+      "pct": 0.0,
+      "tran": []
+     },
+     "riconoscimento_ampio": {
+      "pct": 0.0,
+      "tran": []
+     },
+     "esenzioni_chiuse": {
+      "pct": 1.137375,
+      "tran": [
+       [
+        "CHIEDI->ESEGUI",
+        7584
+       ],
+       [
+        "SOSPENDI->ESEGUI",
+        839
+       ],
+       [
+        "ESEGUI+ALERT->ESEGUI",
+        529
+       ]
+      ]
+     },
+     "classe_non_elencata": {
+      "pct": 1.6835,
+      "tran": [
+       [
+        "ESEGUI->SOSPENDI",
+        7072
+       ],
+       [
+        "CHIEDI->SOSPENDI",
+        5544
+       ],
+       [
+        "ESEGUI->ESEGUI+ALERT",
+        437
+       ]
+      ]
+     },
+     "escalation_raggiungibile": {
+      "pct": 0.075625,
+      "tran": [
+       [
+        "SOSPENDI->RIFIUTO",
+        605
+       ]
+      ]
+     }
+    },
+    "non_unico_pct": 2.825,
+    "indecidibile_pct": 0.0,
+    "salto_ge2_pct": 2.3,
+    "distribuzione": {
+     "1": 7774,
+     "3": 42,
+     "2": 184
+    }
+   }
+  }
+ },
+ "valutazioni": 50592000
+}

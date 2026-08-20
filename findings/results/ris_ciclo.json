@@ -1,0 +1,181 @@
+{
+ "theta_ottimo": 0.595,
+ "deriva": {
+  "0": {
+   "A": {
+    "theta": 0.595,
+    "sovracosto_pct": 0.0
+   },
+   "B": {
+    "theta": 0.05,
+    "sovracosto_pct": 347.0560802145272
+   },
+   "C1": {
+    "theta": 0.595,
+    "sovracosto_pct": 0.0
+   },
+   "C2": {
+    "theta": 0.589,
+    "sovracosto_pct": 0.2564999417045577
+   },
+   "C3": {
+    "theta": 0.595,
+    "sovracosto_pct": 0.8644381152250968
+   }
+  },
+  "25": {
+   "A": {
+    "theta": 0.595,
+    "sovracosto_pct": 0.0
+   },
+   "B": {
+    "theta": 0.05,
+    "sovracosto_pct": 347.0560802145272
+   },
+   "C1": {
+    "theta": 0.595,
+    "sovracosto_pct": 0.2564999417045577
+   },
+   "C2": {
+    "theta": 0.595,
+    "sovracosto_pct": 0.8644381152250968
+   },
+   "C3": {
+    "theta": 0.577,
+    "sovracosto_pct": 0.8644381152250968
+   }
+  },
+  "100": {
+   "A": {
+    "theta": 0.595,
+    "sovracosto_pct": 0.0
+   },
+   "B": {
+    "theta": 0.05,
+    "sovracosto_pct": 347.0560802145272
+   },
+   "C1": {
+    "theta": 0.595,
+    "sovracosto_pct": 0.09660387414847094
+   },
+   "C2": {
+    "theta": 0.583,
+    "sovracosto_pct": 0.4763570345941881
+   },
+   "C3": {
+    "theta": 0.571,
+    "sovracosto_pct": 2.002032012525201
+   }
+  },
+  "400": {
+   "A": {
+    "theta": 0.595,
+    "sovracosto_pct": 0.0
+   },
+   "B": {
+    "theta": 0.05,
+    "sovracosto_pct": 347.0560802145272
+   },
+   "C1": {
+    "theta": 0.595,
+    "sovracosto_pct": 0.0
+   },
+   "C2": {
+    "theta": 0.595,
+    "sovracosto_pct": 0.0
+   },
+   "C3": {
+    "theta": 0.589,
+    "sovracosto_pct": 0.09660387414847094
+   }
+  },
+  "1600": {
+   "A": {
+    "theta": 0.595,
+    "sovracosto_pct": 0.0
+   },
+   "B": {
+    "theta": 0.05,
+    "sovracosto_pct": 347.0560802145272
+   },
+   "C1": {
+    "theta": 0.589,
+    "sovracosto_pct": 0.09660387414847094
+   },
+   "C2": {
+    "theta": 0.589,
+    "sovracosto_pct": 0.09660387414847094
+   },
+   "C3": {
+    "theta": 0.589,
+    "sovracosto_pct": 0.09660387414847094
+   }
+  }
+ },
+ "sordita": {
+  "0.62": {
+   "A": {
+    "finale": 0.595,
+    "round": 0,
+    "nuovo_ottimo": 0.575,
+    "sovracosto_pct": 1.026259500295823
+   },
+   "B": {
+    "finale": 0.95,
+    "round": null,
+    "nuovo_ottimo": 0.575,
+    "sovracosto_pct": 58.426250398215984
+   },
+   "C1": {
+    "finale": 0.595,
+    "round": 0,
+    "nuovo_ottimo": 0.575,
+    "sovracosto_pct": 1.026259500295823
+   },
+   "C2": {
+    "finale": 0.607,
+    "round": 0,
+    "nuovo_ottimo": 0.575,
+    "sovracosto_pct": 2.285759796113407
+   },
+   "C3": {
+    "finale": 0.613,
+    "round": 0,
+    "nuovo_ottimo": 0.575,
+    "sovracosto_pct": 2.706730988030759
+   }
+  },
+  "0.55": {
+   "A": {
+    "finale": 0.595,
+    "round": null,
+    "nuovo_ottimo": 0.5549999999999999,
+    "sovracosto_pct": 0.8595622886415688
+   },
+   "B": {
+    "finale": 0.95,
+    "round": null,
+    "nuovo_ottimo": 0.5549999999999999,
+    "sovracosto_pct": 29.43203259591458
+   },
+   "C1": {
+    "finale": 0.595,
+    "round": null,
+    "nuovo_ottimo": 0.5549999999999999,
+    "sovracosto_pct": 0.8595622886415688
+   },
+   "C2": {
+    "finale": 0.619,
+    "round": null,
+    "nuovo_ottimo": 0.5549999999999999,
+    "sovracosto_pct": 2.667104195721337
+   },
+   "C3": {
+    "finale": 0.631,
+    "round": null,
+    "nuovo_ottimo": 0.5549999999999999,
+    "sovracosto_pct": 3.9240887090158383
+   }
+  }
+ }
+}

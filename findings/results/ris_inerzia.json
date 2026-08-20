@@ -1,0 +1,18 @@
+{
+ "canale_cambia_pct": 0.0,
+ "liv_asserito_cambia_pct": 0.0,
+ "rilevatori_influenti_pct": {
+  "5.1": 0.0,
+  "5.2": 0.0,
+  "5.8": 0.0,
+  "5.9": 0.0,
+  "5.3/5.4": 13.565,
+  "5.6": 11.638,
+  "5.7": 11.4056,
+  "5.5": 13.1938
+ },
+ "mai_determinanti": [
+  "3.6/5.5:regressione_del_riscontro",
+  "6.4:nessun_livello_superiore"
+ ]
+}

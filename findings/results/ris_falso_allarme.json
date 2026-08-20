@@ -1,0 +1,145 @@
+{
+ "n": 2000000,
+ "esiti": {
+  "ESEGUI": 1732175,
+  "CHIEDI": 62052,
+  "RIFIUTO": 199758,
+  "SOSPENDI": 6015
+ },
+ "tasso_non_esecuzione_pct": 13.39125,
+ "cause_del_blocco": [
+  [
+   "P.4",
+   199617
+  ],
+  [
+   "3.6",
+   55857
+  ],
+  [
+   "6.3",
+   55857
+  ],
+  [
+   "6.4:sale_di_livello",
+   10736
+  ],
+  [
+   "3.1",
+   8395
+  ],
+  [
+   "6.3:nessun_canale",
+   3956
+  ]
+ ],
+ "scenari_nominati": {
+  "triage_risorse_scarse": {
+   "esito": "CHIEDI",
+   "traccia": [
+    "3.6",
+    "6.3"
+   ],
+   "note": [
+    "5.1:toccati_enumerati_nessun_esito"
+   ]
+  },
+  "congelamento_conto_sotto_attacco": {
+   "esito": "ESEGUI",
+   "traccia": [
+    "3.1"
+   ],
+   "note": [
+    "5.1:toccati_enumerati_nessun_esito"
+   ]
+  },
+  "rianimazione_su_incosciente": {
+   "esito": "SOSPENDI",
+   "traccia": [
+    "P.2"
+   ],
+   "note": []
+  },
+  "informazione_medica_ad_adulto": {
+   "esito": "CHIEDI",
+   "traccia": [
+    "3.6",
+    "6.3"
+   ],
+   "note": []
+  },
+  "invio_email_di_lavoro": {
+   "esito": "CHIEDI",
+   "traccia": [
+    "3.6",
+    "6.3"
+   ],
+   "note": [
+    "5.1:toccati_enumerati_nessun_esito"
+   ]
+  },
+  "invio_email_con_conferma": {
+   "esito": "ESEGUI",
+   "traccia": [
+    "3.6:riscontro_positivo_verificato"
+   ],
+   "note": [
+    "5.1:toccati_enumerati_nessun_esito"
+   ]
+  },
+  "script_di_pulizia_con_vincoli": {
+   "esito": "ESEGUI",
+   "traccia": [
+    "3.6:riscontro_positivo_verificato"
+   ],
+   "note": [
+    "5.1:toccati_enumerati_nessun_esito"
+   ]
+  },
+  "moderazione_su_condotta_osservabile": {
+   "esito": "ESEGUI",
+   "traccia": [
+    "3.1"
+   ],
+   "note": [
+    "5.1:toccati_enumerati_nessun_esito"
+   ]
+  },
+  "prognosi_attuariale_su_evento": {
+   "esito": "ESEGUI",
+   "traccia": [
+    "3.1"
+   ],
+   "note": [
+    "5.1:toccati_enumerati_nessun_esito"
+   ]
+  },
+  "rifiuto_di_azione_dannosa": {
+   "esito": "ESEGUI",
+   "traccia": [
+    "3.6:riscontro_positivo_verificato"
+   ],
+   "note": [
+    "5.1:toccati_enumerati_nessun_esito"
+   ]
+  },
+  "avviso_urgente_al_pubblico": {
+   "esito": "CHIEDI",
+   "traccia": [
+    "3.6",
+    "6.3"
+   ],
+   "note": [
+    "5.1:toccati_enumerati_nessun_esito",
+    "5.8:scala_valutata_nessun_esito"
+   ]
+  },
+  "correzione_di_un_errore_in_corso": {
+   "esito": "SOSPENDI",
+   "traccia": [
+    "4.6"
+   ],
+   "note": []
+  }
+ }
+}
