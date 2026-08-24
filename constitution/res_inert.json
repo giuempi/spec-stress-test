@@ -1,0 +1,21 @@
+{
+ "principal": 0.6353333333333333,
+ "op_conflict": 2.3966666666666665,
+ "conflict_kind": 5.956,
+ "entitlement": 4.153333333333333,
+ "hard": 45.346666666666664,
+ "default_state": 35.51766666666666,
+ "adjusted": 9.552,
+ "stakes": 53.340333333333334,
+ "irreversible": 37.61633333333333,
+ "authorized": 5.622,
+ "stop_request": 96.90466666666667,
+ "undermines": 44.14933333333333,
+ "harm": 49.96,
+ "inaction_cost": 53.643,
+ "intent": 39.540333333333336,
+ "honesty": 45.74433333333333,
+ "ethics": 47.29266666666667,
+ "guidelines": 39.994,
+ "overcaution": 29.143333333333334
+}

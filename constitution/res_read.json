@@ -1,0 +1,148 @@
+{
+ "oat": {
+  "strict_order": {
+   "pct": 40.34,
+   "tran": [
+    [
+     "REFUSE->DEFER/ASK",
+     43275
+    ],
+    [
+     "REFUSE->EXECUTE",
+     18630
+    ],
+    [
+     "EXECUTE+CAVEAT->DEFER/ASK",
+     6910
+    ]
+   ]
+  },
+  "inaction_weighed": {
+   "pct": 7.4995,
+   "tran": [
+    [
+     "EXECUTE+CAVEAT->REFUSE",
+     7019
+    ],
+    [
+     "DEFER/ASK->REFUSE",
+     2842
+    ],
+    [
+     "EXECUTE->EXECUTE+CAVEAT",
+     2558
+    ]
+   ]
+  },
+  "stop_verified": {
+   "pct": 0.982,
+   "tran": [
+    [
+     "REFUSE->DEFER/ASK",
+     1089
+    ],
+    [
+     "EXECUTE->DEFER/ASK",
+     685
+    ],
+    [
+     "EXECUTE+CAVEAT->DEFER/ASK",
+     85
+    ]
+   ]
+  },
+  "entitle_absolute": {
+   "pct": 0.329,
+   "tran": [
+    [
+     "EXECUTE->REFUSE",
+     555
+    ],
+    [
+     "EXECUTE+CAVEAT->REFUSE",
+     70
+    ],
+    [
+     "DEFER/ASK->REFUSE",
+     33
+    ]
+   ]
+  },
+  "cross_adjust": {
+   "pct": 0.3535,
+   "tran": [
+    [
+     "REFUSE->EXECUTE",
+     594
+    ],
+    [
+     "REFUSE->EXECUTE+CAVEAT",
+     74
+    ],
+    [
+     "REFUSE->DEFER/ASK",
+     39
+    ]
+   ]
+  },
+  "hard_closed": {
+   "pct": 0.0035,
+   "tran": [
+    [
+     "DEFER/ASK->REFUSE",
+     6
+    ],
+    [
+     "UNDECIDED->REFUSE",
+     1
+    ]
+   ]
+  },
+  "urgent_overrides": {
+   "pct": 0.4385,
+   "tran": [
+    [
+     "EXECUTE->REFUSE",
+     525
+    ],
+    [
+     "EXECUTE+CAVEAT->REFUSE",
+     179
+    ],
+    [
+     "DEFER/ASK->REFUSE",
+     173
+    ]
+   ]
+  },
+  "drastic_symmetric": {
+   "pct": 0.148,
+   "tran": [
+    [
+     "UNDECIDED->DEFER/ASK",
+     217
+    ],
+    [
+     "DEFER/ASK->REFUSE",
+     78
+    ],
+    [
+     "EXECUTE+CAVEAT->DEFER/ASK",
+     1
+    ]
+   ]
+  }
+ },
+ "n_oat": 200000,
+ "n_fact": 6000,
+ "n_letture": 256,
+ "non_unico_pct": 43.6,
+ "undecided_pct": 0.11666666666666667,
+ "salto_pct": 17.85,
+ "dist": {
+  "2": 2312,
+  "1": 3384,
+  "3": 302,
+  "4": 2
+ }
+}

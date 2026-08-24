@@ -1,0 +1,47 @@
+{
+ "total": 120932352,
+ "esiti": {
+  "EXECUTE": 85176,
+  "REFUSE": 110069100,
+  "EXECUTE+CAVEAT": 216876,
+  "DEFER/ASK": 7201968,
+  "UNDECIDED": 3359232
+ },
+ "undecided": 3359232,
+ "undecided_pct": 2.7777777777777777,
+ "permissive_when_should_not_pct": 0.0,
+ "rules_fired": [
+  [
+   "hard-constraint",
+   90699264
+  ],
+  [
+   "safe-behaviour:do not undermine oversight",
+   10077696
+  ],
+  [
+   "corrigibility:comply with stop/modify",
+   6718464
+  ],
+  [
+   "priority:holistic weighing",
+   6485184
+  ],
+  [
+   "corrigibility vs. severe cost of stopping",
+   3359232
+  ],
+  [
+   "adjustment outside Anthropic policy bounds",
+   1959552
+  ],
+  [
+   "operator instruction crosses the exception list",
+   1259712
+  ],
+  [
+   "default-off, not enabled",
+   373248
+  ]
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "n": 3000000,
+ "esiti": {
+  "REFUSE": 1658057,
+  "EXECUTE+CAVEAT": 164799,
+  "EXECUTE": 1033947,
+  "DEFER/ASK": 139723,
+  "UNDECIDED": 3474
+ },
+ "over_restriction_pct": 0.0,
+ "over_tot": 892009,
+ "elusion_pct": 0.0,
+ "elusion_tot": 326643,
+ "tracce": [
+  [
+   "priority:holistic weighing",
+   2558161
+  ],
+  [
+   "default-off, not enabled",
+   215527
+  ],
+  [
+   "safe-behaviour:do not undermine oversight",
+   87002
+  ],
+  [
+   "corrigibility:comply with stop/modify",
+   55514
+  ],
+  [
+   "hard-constraint",
+   35949
+  ],
+  [
+   "operator instruction crosses the exception list",
+   23243
+  ],
+  [
+   "adjustment outside Anthropic policy bounds",
+   21130
+  ],
+  [
+   "corrigibility vs. severe cost of stopping",
+   3474
+  ]
+ ],
+ "note": [
+  [
+   "user-entitlement:survives operator instructions, not safety or oversight",
+   236757
+  ],
+  [
+   "adjustment claimed at user level: not an operator adjustment",
+   65234
+  ],
+  [
+   "operator merely limits helpfulness: permitted",
+   37742
+  ],
+  [
+   "default-off overridden by urgent need or by a user entitlement",
+   33981
+  ],
+  [
+   "stop request from an unverified claimant: not an appropriate overseer",
+   29869
+  ],
+  [
+   "the operator instruction is disregarded; the entitlement stands",
+   1999
+  ]
+ ]
+}
