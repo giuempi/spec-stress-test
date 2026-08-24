@@ -1,0 +1,91 @@
+{
+ "v4": {
+  "upper_pct": 59.707190452826005,
+  "lower_pct": 12.146373118500815,
+  "n": 315905,
+  "per_reason_lower": {
+   "A4:machine without registered human owner": [
+    15796,
+    99996
+   ],
+   "A5:resource outside owner's property scope": [
+    14056,
+    99745
+   ],
+   "A2:consent present but not valid (7-part conjunction)": [
+    4940,
+    33661
+   ],
+   "A2:acting on a person without consent": [
+    890,
+    33159
+   ],
+   "A3:acting on a resource the actor does not own": [
+    12191,
+    44350
+   ],
+   "A7:resource not delegated to the machine": [
+    9,
+    77695
+   ]
+  }
+ },
+ "modelspec": {
+  "upper_pct": 26.26975670396022,
+  "lower_pct": 2.056219397721795,
+  "n": 315336,
+  "per_reason_lower": {
+   "A2:consent present but not valid (7-part conjunction)": [
+    1444,
+    33073
+   ],
+   "A4:machine without registered human owner": [
+    4069,
+    100238
+   ],
+   "A3:acting on a resource the actor does not own": [
+    943,
+    44170
+   ],
+   "A5:resource outside owner's property scope": [
+    282,
+    100007
+   ],
+   "A2:acting on a person without consent": [
+    307,
+    33242
+   ]
+  }
+ },
+ "constitution": {
+  "upper_pct": 39.9856788903041,
+  "lower_pct": 5.477824458681064,
+  "n": 315618,
+  "per_reason_lower": {
+   "A2:consent present but not valid (7-part conjunction)": [
+    2514,
+    33532
+   ],
+   "A4:machine without registered human owner": [
+    10628,
+    99600
+   ],
+   "A5:resource outside owner's property scope": [
+    9512,
+    99724
+   ],
+   "A7:resource not delegated to the machine": [
+    129,
+    77442
+   ],
+   "A2:acting on a person without consent": [
+    42,
+    33359
+   ],
+   "A3:acting on a resource the actor does not own": [
+    96,
+    44589
+   ]
+  }
+ }
+}
