@@ -267,7 +267,7 @@ only fires where the cost is also uncompensated.
 ## Reproduce
 
 ```bash
-FDK_REF=5de945e legitimacy/fetch_kernel.sh   # pins the commit every number here was run against
+FDK_REF=5de945e bash legitimacy/fetch_kernel.sh   # pins the commit every number here was run against
 python3 legitimacy/confronta_gate.py         # my rendering vs his kernel, all 1,728 cells
 python3 legitimacy/measure.py --kernel       # six seeds on his gate (~4 min)
 python3 legitimacy/measure.py                # the same on my rendering, for comparison
