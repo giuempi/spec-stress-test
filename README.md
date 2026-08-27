@@ -127,7 +127,7 @@ Stated first, because it decides how much of the rest is worth anything.
 
 ```bash
 pip install -r requirements.txt     # numpy only
-./run_all.sh                        # ~13 minutes on 2 cores; phases 1-3 need no network,
+bash run_all.sh                     # ~13 minutes on 2 cores; phases 1-3 need no network,
                                     # phase 4 clones the external kernel and skips if it can't
 python3 src/report.py               # prints every table quoted above
 ```
