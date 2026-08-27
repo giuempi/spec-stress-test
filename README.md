@@ -4,6 +4,12 @@ A specification for how an AI agent should evaluate the commands it receives, co
 a runnable decision procedure and then attacked — **371 million decision evaluations** across
 two versions of the document.
 
+**Three specifications measured so far** — the one this repository was built around, the
+[OpenAI Model Spec](modelspec/), and [Anthropic's Claude Constitution](constitution/). The finding
+that carries across all three: **every one of them mandates deference to a stop or oversight signal,
+and none of them says what to do when stopping is itself what causes the harm.** Written
+independently, by different people, with the same gap at the same joint.
+
 The finding that generalises beyond this particular document: **a rule can be present in a
 specification and never determine anything.** Four of the nine "detectors" in v3 of this spec
 — including the one the document itself calls "the most important correction in this document"
@@ -15,6 +21,18 @@ CC0 — in [`modelspec/`](modelspec/README.md), where the whole 238,878,720-case
 exhaustively. Its headline: **19.18%** of cases have no unique outcome across faithful readings, and
 **8.086%** of that comes from a single unsettled question — what lifts *"ignore untrusted data by
 default"*, which is exactly the surface an injection attack targets.
+
+A fourth study asks the opposite question — not *is this document self-consistent*, but *is
+there an axis all three are missing*. A legitimacy gate written by someone else was executed
+directly, unmodified, against the same case vectors, in [`legitimacy/`](legitimacy/README.md).
+Two results, one of them against me: my earlier paraphrase of that gate was **too permissive in
+76 of 1,728 cells and stricter in none**, and running the author's real code cut the measured
+gap by 36%, 59% and 62% in the three documents' favour. What survives is exhaustive and needs no sampling:
+**18 of 1,440 denied cases are denied for a reason none of the three specifications can express
+— always the same reason, that consent was present but not valid.** Informed, voluntary,
+specific, revocable, competent, uncoerced, undeceived: none of the three has that conjunction.
+Two of them have no consent predicate at all; the third asks whether consent was given, and can
+refuse to believe that it was, but never asks what it was worth.
 
 Everything here is dedicated to the public domain (CC0). There is no author to credit and
 nothing to license. If any of it is useful, take it.
@@ -109,7 +127,8 @@ Stated first, because it decides how much of the rest is worth anything.
 
 ```bash
 pip install -r requirements.txt     # numpy only
-./run_all.sh                        # ~11 minutes on 2 cores, no network
+./run_all.sh                        # ~13 minutes on 2 cores; phases 1-3 need no network,
+                                    # phase 4 clones the external kernel and skips if it can't
 python3 src/report.py               # prints every table quoted above
 ```
 
@@ -121,11 +140,14 @@ the README is wrong.** (This happened once during preparation and the README was
 ## Layout
 
 ```
-modelspec/   a second study: the same method applied to the OpenAI Model Spec
-protocol/    the specification under test, v3 and v4          (Italian and English)
-src/         the deciders, the case space, the attack battery, the report generator
-findings/    the sixteen findings, the raw JSON results, and the extended Italian report
-run_all.sh   reproduces everything from scratch
+modelspec/    a second study: the same method applied to the OpenAI Model Spec
+constitution/ the same method applied to Anthropic's Claude Constitution
+legitimacy/   a cross-measurement: all three specifications against an outside legitimacy
+              gate, executed rather than paraphrased (freedom-decision-kernel)
+protocol/     the specification under test, v3 and v4         (Italian and English)
+src/          the deciders, the case space, the attack battery, the report generator
+findings/     the sixteen findings, the raw JSON results, and the extended Italian report
+run_all.sh    reproduces everything from scratch
 ```
 
 `findings/rapporto-esteso-v3.it.docx` is the original 18-page Italian report on v3, longer than
