@@ -1,0 +1,27 @@
+{
+ "total": 1728,
+ "agreement_pct": 95.60185185185185,
+ "mine_allow_kernel_deny": 76,
+ "mine_deny_kernel_allow": 0,
+ "reason_cells_mine": {
+  "A6:categorical forbidden act": 864,
+  "A2:acting on a person without consent": 144,
+  "A2:consent present but not valid (7-part conjunction)": 144,
+  "A3:acting on a resource the actor does not own": 192,
+  "A5:resource outside owner's property scope": 432,
+  "A4:machine without registered human owner": 432,
+  "A7:resource not delegated to the machine": 336
+ },
+ "reason_cells_kernel": {
+  "A6:categorical forbidden act": 864,
+  "A2:acting on a person without consent": 144,
+  "A2:consent present but not valid (7-part conjunction)": 144,
+  "A3:acting on a resource the actor does not own": 288,
+  "A5:resource outside owner's property scope": 720,
+  "A4:machine without registered human owner": 432,
+  "A7:resource not delegated to the machine": 708
+ },
+ "kernel_allow": 288,
+ "mine_allow": 364,
+ "noscope": false
+}

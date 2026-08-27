@@ -1,0 +1,235 @@
+{
+ "v4": {
+  "upper_pct": 59.859873948222464,
+  "upper_sd_across_seeds": 0.11319883789527525,
+  "upper_range": [
+   59.72328562292262,
+   59.98208763235166
+  ],
+  "lower_pct": 7.7306696782749365,
+  "lower_sd_across_seeds": 0.05043449796063412,
+  "lower_range": [
+   7.687179425578686,
+   7.828964921800287
+  ],
+  "per_seed_upper": [
+   59.92493307231787,
+   59.72328562292262,
+   59.98208763235166,
+   59.96425540592005,
+   59.82312349866398,
+   59.741558457158646
+  ],
+  "per_seed_lower": [
+   7.828964921800287,
+   7.729446841474729,
+   7.705323519599917,
+   7.724370796186843,
+   7.708732565009162,
+   7.687179425578686
+  ],
+  "seeds": [
+   7,
+   11,
+   23,
+   101,
+   999,
+   31337
+  ],
+  "n_denials_total": 1999277,
+  "per_reason_lower": {
+   "A2:acting on a person without consent": [
+    4262,
+    199690
+   ],
+   "A3:acting on a resource the actor does not own": [
+    111428,
+    399515
+   ],
+   "A6:categorical forbidden act": [
+    0,
+    1199774
+   ],
+   "A2:consent present but not valid (7-part conjunction)": [
+    22786,
+    200468
+   ],
+   "A4:machine without registered human owner": [
+    1339,
+    600276
+   ],
+   "A5:resource outside owner's property scope": [
+    25258,
+    1000234
+   ],
+   "A7:resource not delegated to the machine": [
+    11,
+    983239
+   ]
+  },
+  "forcings_undone": {},
+  "denied_cells": 1440,
+  "blind_cells": 18,
+  "blind_pct": 1.25,
+  "blind_by_reason": {
+   "A2": 18
+  }
+ },
+ "modelspec": {
+  "upper_pct": 26.505092453796987,
+  "upper_sd_across_seeds": 0.028109424400523955,
+  "upper_range": [
+   26.462596051755476,
+   26.545574537655053
+  ],
+  "lower_pct": 0.8310233992742398,
+  "lower_sd_across_seeds": 0.018493196754064443,
+  "lower_range": [
+   0.8056654538692039,
+   0.859577331915226
+  ],
+  "per_seed_upper": [
+   26.519471248301535,
+   26.489315988905815,
+   26.511514802172368,
+   26.462596051755476,
+   26.545574537655053,
+   26.50208209399167
+  ],
+  "per_seed_lower": [
+   0.8056654538692039,
+   0.821546514737655,
+   0.8412065098936333,
+   0.834098148248124,
+   0.8240464369815962,
+   0.859577331915226
+  ],
+  "seeds": [
+   7,
+   11,
+   23,
+   101,
+   999,
+   31337
+  ],
+  "n_denials_total": 1998876,
+  "per_reason_lower": {
+   "A2:acting on a person without consent": [
+    1513,
+    199826
+   ],
+   "A3:acting on a resource the actor does not own": [
+    8551,
+    399675
+   ],
+   "A6:categorical forbidden act": [
+    0,
+    1200482
+   ],
+   "A2:consent present but not valid (7-part conjunction)": [
+    7044,
+    199469
+   ],
+   "A5:resource outside owner's property scope": [
+    514,
+    999694
+   ],
+   "A7:resource not delegated to the machine": [
+    0,
+    982319
+   ],
+   "A4:machine without registered human owner": [
+    26,
+    599443
+   ]
+  },
+  "forcings_undone": {},
+  "denied_cells": 1440,
+  "blind_cells": 18,
+  "blind_pct": 1.25,
+  "blind_by_reason": {
+   "A2": 18
+  }
+ },
+ "constitution": {
+  "upper_pct": 40.03853755293645,
+  "upper_sd_across_seeds": 0.14333559587388214,
+  "upper_range": [
+   39.86415130568356,
+   40.22620469454264
+  ],
+  "lower_pct": 2.2516689158843515,
+  "lower_sd_across_seeds": 0.036273621413502856,
+  "lower_range": [
+   2.205107734234545,
+   2.2956565577755237
+  ],
+  "per_seed_upper": [
+   39.90242819381145,
+   40.16261918258517,
+   40.07774281883704,
+   40.22620469454264,
+   39.99807912215883,
+   39.86415130568356
+  ],
+  "per_seed_lower": [
+   2.234970431422202,
+   2.2884256051731016,
+   2.224308427837448,
+   2.2956565577755237,
+   2.205107734234545,
+   2.261544738863287
+  ],
+  "seeds": [
+   7,
+   11,
+   23,
+   101,
+   999,
+   31337
+  ],
+  "n_denials_total": 1999848,
+  "per_reason_lower": {
+   "A2:acting on a person without consent": [
+    164,
+    200439
+   ],
+   "A3:acting on a resource the actor does not own": [
+    871,
+    400020
+   ],
+   "A6:categorical forbidden act": [
+    0,
+    1200196
+   ],
+   "A2:consent present but not valid (7-part conjunction)": [
+    11941,
+    199921
+   ],
+   "A4:machine without registered human owner": [
+    10800,
+    599028
+   ],
+   "A5:resource outside owner's property scope": [
+    31903,
+    999028
+   ],
+   "A7:resource not delegated to the machine": [
+    16918,
+    982311
+   ]
+  },
+  "forcings_undone": {
+   "A7:resource not delegated to the machine": [
+    618034,
+    982311
+   ]
+  },
+  "denied_cells": 1440,
+  "blind_cells": 18,
+  "blind_pct": 1.25,
+  "blind_by_reason": {
+   "A2": 18
+  }
+ }
+}

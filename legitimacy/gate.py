@@ -2,10 +2,14 @@
 """
 legitimate(A, G) — the Theory of Freedom legitimacy gate, as an executable predicate.
 
-Rendered from the axioms in THEORY.md (A1-A7) and the decision logic described in
-freedom-decision-kernel/src/fdk_kernel/kernel.py. Sources, CC BY 4.0:
-  https://github.com/Aliipou/freedom-theory
-  https://github.com/Aliipou/freedom-decision-kernel
+SUPERSEDED. This module is a *reading* of the axioms in THEORY.md (A1-A7) and of the decision
+logic in freedom-decision-kernel. It is kept only as the comparison baseline: `confronta_gate.py`
+measures it against the author's actual code, and it loses — 76 of 1,728 cells too permissive,
+0 too strict. For every result, use `kernel_bridge.py`, which executes his kernel directly.
+
+Sources — DIFFERENT LICENCES, an earlier version of this header wrongly said CC BY 4.0 for both:
+  https://github.com/Aliipou/freedom-theory            CC BY 4.0
+  https://github.com/Aliipou/freedom-decision-kernel   PolyForm Noncommercial 1.0.0
 
 This is a reading of someone else's specification, written to answer a question posed in
 public: does an authority-shaped specification already absorb this axis, or not? It is not
@@ -14,10 +18,20 @@ theological commitment; its operational content in the kernel is enforcement by 
 no owns(x, Person) fact is representable — which is what is rendered here.
 
 TWO DISCREPANCIES FOUND AND REPORTED RATHER THAN SMOOTHED OVER:
-  1. The kernel documents ALLOW/DENY only and states "There is no DEFER state in this
-     kernel"; the author's comment says an empty legitimate set produces DEFER. DEFER
-     appears to live in the orchestration layer, not the gate. Both are modelled: the gate
-     returns DENY, and EMPTY is reported separately.
+  1. DEFER. The kernel's README says "The kernel returns ALLOW / DENY / DEFER — never a
+     score" and describes DEFER as the corrigible behaviour when the legitimate set is
+     empty. In the code at 5de945e, DEFER occurs nowhere in `fdk_kernel/`: it exists only
+     in `fdk_runtime` and `fdk_research`. So DEFER is a property of the runtime overlay,
+     not of the gate. Both are modelled: the gate returns DENY, and EMPTY is reported
+     separately.
+     An earlier version of this docstring said the kernel "documents ALLOW/DENY only" and
+     put in its mouth the sentence "There is no DEFER state in this kernel". That sentence
+     is in none of the repository's 147 commits. It is a close paraphrase of the author's
+     own reply in the thread — "There is no DEFER verdict in the gate" — mis-sourced to the
+     kernel's documentation, which in fact says the opposite. So: right about the code,
+     wrong about who said it and wrong about what the docs say. Re-sourced, not deleted.
+     What he conceded was a gap between his earlier comment and his code; the README line
+     above is a third source, and neither of us addressed it at the time.
   2. THEORY.md says "No emergency suspends axioms" and mandates clarification. That is
      consistent with T8 (necessity returns no exception) and inconsistent with nothing here.
 """
